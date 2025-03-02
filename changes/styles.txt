@@ -1,0 +1,35 @@
+<!-- Styles -->
+<WindowStyle>
+    <Font>DejaVu Sans-11</Font>  <!-- Increased font size from 10 to 11 -->
+    <Width>34</Width>  <!-- Slightly wider windows -->
+    <Height>24</Height>  <!-- Slightly taller windows -->
+    <Foreground>#bbbbbb</Foreground>  <!-- Lightened foreground text -->
+    <Background>#fffa71:#ffce40</Background>  <!-- Softer gradient background -->
+    <Corner>6</Corner>  <!-- Increased rounded corners for a smoother UI -->
+    <Outline>gray60</Outline>  <!-- Slightly softer outline color -->
+    <Active>
+        <Foreground>black</Foreground>
+        <Background>#ffce40:#ff9009</Background>  <!-- Adjusted active window gradient -->
+        <Outline>black</Outline>
+    </Active>
+</WindowStyle>
+
+<PagerStyle>
+    <Outline>gray50</Outline>  <!-- Softer outline -->
+    <Foreground>#ffbb00</Foreground>  <!-- Slightly softer yellow -->
+    <Background>#ffbb00</Background>
+    <Active>
+        <Foreground>#ff6f00</Foreground>  <!-- Slightly darker orange -->
+        <Background>#ff9000</Background>  <!-- Adjusted active background -->
+    </Active>
+</PagerStyle>
+
+<MenuStyle>
+    <Font>DejaVu Sans-11</Font>  <!-- Font size increased for better readability -->
+    <Foreground>black</Foreground>
+    <Background>#ffce40</Background>  <!-- Softer background color -->
+    <Active>
+        <Foreground>black</Foreground>
+        <Background>#ffce40:#ff9009</Background>  <!-- Adjusted active menu gradient -->
+    </Active>
+</MenuStyle>
